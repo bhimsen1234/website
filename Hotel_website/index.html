@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet add -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hotel Reservation</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/icons.png" type="image/x-icon">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/dc0e1fa38b.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <div id="conatiner">
+        <header>
+
+            <!-- top bar -->
+            <div id="topbar" class="uni-padding">
+                <p id="tollfree">Toll free :12345-54123</p>
+
+                <div id="social-icon">
+                    <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i></a>
+                    <a
+                        href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.google.co.in/"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- navigation bar -->
+            <nav id="navbar" class="uni-padding">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+            </nav>
+
+            <!-- logo bar
+            <div id="logobar" class="uni-padding">
+                <img src="images/logo.png" alt="">
+            </div> -->
+
+        </header>
+
+        <!-- poster -->
+        <div id="poster" class="uni-padding">
+            <h1 class="welcome">Welcome to hotel shine</h1>
+            <h4 class="arrive">ARRIVE AS GUESTS, LEAVE AS FRIENDS</h4>
+        </div>
+        <div id="checkin" class="uni-padding">
+            <form>
+                <div class="time">
+                    <label for="email">Email-Id:</label>
+                    <input type="text" name="text" placeholder="enter your email">
+                    <label for="rooms">Room Type</label>
+                    <select name="" id="room">
+                        <option value="rooms">Select Room</option>
+                        <option value="rooms">AC Room</option>
+                        <option value="rooms">Non-AC Room</option>
+                    </select>
+                    <label for="check">Check-in:</label>
+                    <input type="date" id="check1" name="check">
+                    <label for="check">Check-out:</label>
+                    <input type="date" id="check2" name="check">
+                    <label for="guest">Guests</label>
+                    <select name="" id="guest">
+                        <option value="guest">Select Guests</option>
+                        <option value="guest">1</option>
+                        <option value="guest">2</option>
+                        <option value="guest">3</option>
+                        <option value="guest">4</option>
+                    </select>
+                    <button>BOOK NOW</button>
+                </div>
+            </form>
+
+        </div>
+
+        <!-- why to choose us -->
+        <div id="whysection" class="uni-padding">
+            <h2 class="red-heading">WHY TO CHOOSE US ?</h2>
+
+            <div class="section16">
+                <img src="images/why1.jpg" alt="">
+                <h4>View</h4>
+            </div>
+            <div class="section16">
+                <img src="images/why2.jpg" alt="">
+                <h4>Beer</h4>
+            </div>
+            <div class="section16">
+                <img src="images/why3.jpg" alt="">
+                <h4>Ice-cream</h4>
+            </div>
+            <div class="section16">
+                <img src="images/why4.jpg" alt="">
+                <h4>Pizza</h4>
+            </div>
+            <div class="section16">
+                <img src="images/why5.jpg" alt="">
+                <h4>Coffee</h4>
+            </div>
+            <div class="section16">
+                <img src="images/why6.jpg" alt="">
+                <h4>Cake</h4>
+            </div>
+
+            <button id="whybtn" onclick="location.href='http://gurgaonfoodie.com/'">View ALL</button>
+
+        </div>
+        <!-- upcoming events  -->
+        <div id="upcoming" class="uni-padding">
+            <h2>Upcoming</h2>
+            <h1>Events</h1>
+            <div class="events">
+                <img src="images/events1.jpg" alt="">
+                <div class="desc">
+                    <h5>date</h5>
+                    <h6>add description</h6>
+                </div>
+            </div>
+            <div class="events">
+                <img src="images/events2.jpg" alt="">
+                <div class="desc">
+                    <h5>date</h5>
+                    <h6>add description</h6>
+                </div>
+            </div>
+            <div class="events">
+                <img src="images/events3.jpg" alt="">
+                <div class="desc">
+                    <h5>date</h5>
+                    <h6>add description</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div id="information" class="uni-padding">
+                <div class="div25">
+                    <h3>ADDRESS</h3>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Hotel in Gurgaon</p>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>123-512-4123</p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>hotel@gmail.com</p>
+
+                </div>
+                <div class="div25">
+                    <h3>INFORMATION</h3>
+                    <ul id="info">
+                        <li> <a href="about.html">About Us</a></li>
+                        <li><a href="">Delivery Information</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Term & Condition</a></li>
+                        <li><a href="">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="div25">
+                    <h3>MY ACCOUNT</h3>
+                    <ul id="info">
+                        <li> <a href="">My Account</a></li>
+                        <li><a href="">Order History</a></li>
+                        <li><a href="">Wish List</a></li>
+                        <li><a href="">Return</a></li>
+                    </ul>
+                </div>
+                <div class="div25">
+                    <h3>NEWS LETTER</h3>
+                    <p>Lorem ipsum dolor sit amet <br> consectetur adipisi elit.</p>
+                </div>
+            </div>
+
+            <!-- copy right -->
+            <div id="copyright" class="uni-padding">
+                <p>copyright &copy;.Bhim.2022-2023 </p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
